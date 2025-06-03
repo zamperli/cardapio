@@ -1958,6 +1958,11 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+
 .bg-home {
   background-image: url('/assets/bg.png');
 }
@@ -2282,6 +2287,11 @@ video {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-500 {
@@ -2732,6 +2742,10 @@ body{
 
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .before\:hover\:text-center:hover::before {
